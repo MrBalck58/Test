@@ -18,7 +18,7 @@
                    $nameVal[] = $line ;
                }
 
-
+<?phpinfo()>
 
                    echo json_encode ( $nameVal );
 
