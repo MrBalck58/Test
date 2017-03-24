@@ -10,30 +10,29 @@
     <!-- Bootstrap -->
     <link href="css/bootstrap.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
-    <script type="text/javascript" src="js/jquery.js"></script>
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <!--<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>-->
-      <!--<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>-->
-    <!-- <![endif]--> -->
-   </head>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+      </head>
   <body>
+
         <?php
-            require_once 'connect_BD.php';
+/*            require_once 'connect_BD.php';
 //        printf ("\n", getDataFromBaseForDropmenu($nameVal));
         getDataFromBaseForDropmenu();
-        ?>
+        */?>
 
-       <!-- <script type="text/javascript" >
-            var a = <?php /*echo getDataFromBaseForDropmenu();*/?>;
-                document.write('Значение PHP-переменной: ' + a);
-        </script>-->
+
         <div id="menu"></div>
 
-        <div class="panel">
-                    <div id="parse"></div>
-                    
+    <section id="content"><h1>Get json</h1></section>
+
+        <script > console.log("ddfdfdfd");</script>
+        
+
+<!--        <p id="example"><a href="#"> Link </a></p>-->
+
+
+        <p class="panel">
             <div class="select"></div>
             <div class="form-inline">
                 <input type="" class="form-control" placeholder="Значение">
@@ -41,15 +40,11 @@
             </div>
         </div>
 
-
-
-    
-    
-
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.js"></script>
-    <script src="js/script.js"  ></script>
+        <script src="js/bootstrap.js"></script>
+        <script  src="js/script.js"></script>
+
   </body>
 </html>

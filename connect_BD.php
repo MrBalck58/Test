@@ -5,7 +5,8 @@
         $database = 'trade'; // имя базы данных
         $user = 'root'; // имя пользователя
         $password = ''; // пароль
-        $password = '';
+
+//        $masiv  = ["dsds", "fgfdg", "sdadsad"];
 
             $link = mysqli_connect($host, $user, $password, $database)
 
@@ -16,12 +17,10 @@
 
                while ($line = mysqli_fetch_array($result, MYSQLI_ASSOC)){
                    $nameVal[] = $line ;
+
                }
 
-
-
-                   echo json_encode ( $nameVal );
-
+                   echo json_encode ($masiv); //( $nameVal );
 
 
         mysqli_free_result($result);
